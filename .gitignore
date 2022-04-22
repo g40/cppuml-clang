@@ -1,0 +1,10 @@
+#
+*.dot
+*.svg
+*.pdf
+*.spec
+__pycache__/
+dist/
+*.egg-info/
+pyc/
+build/
