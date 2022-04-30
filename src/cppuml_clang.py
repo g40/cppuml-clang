@@ -106,8 +106,9 @@ class Application:
 
 		# exclude on the basis of a name(space)
 		for ns in excludeNamespaces:
-			if re.search(ns, umlClass.fqn) != None and verbosity > 2:
-				dbmsg.debug(f"Skipping namespace: {ns} {umlClass.fqn}")
+			if re.search(ns, umlClass.fqn) != None:
+				if  verbosity > 2:
+					dbmsg.debug(f"Skipping namespace: {ns} {umlClass.fqn}")
 				return
 
 		# exclude on the basis of a filepath
@@ -115,8 +116,9 @@ class Application:
 		# dbmsg.debug(f"{abspath} -> {excludeFilepaths}")
 		for xp in excludeFilepaths:
 			# if re.find(xp, abspath,constants.reOpts):
-			if abspath.find(xp) != -1 and verbosity > 2:
-				dbmsg.debug(f"Skipping include path: {abspath}")
+			if abspath.find(xp) != -1:
+				if verbosity > 2:
+					dbmsg.debug(f"Skipping include path: {abspath}")
 				return
 
 		# seen and parsed before? 

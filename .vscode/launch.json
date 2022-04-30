@@ -15,7 +15,8 @@
 			"windows": {
 				// "args": ["-gn", "-o", "./uml/uml.dot", "-d", "./test", "-i", "../include,./test/inc", "-xn", "std", "-xp", "/usr/include,/usr/lib,r:\\vs,Include", "-cd", "_IS_WINDOWS", "-cs", "c++20"]
 				// "args": [ "-s", "./test" ],
-				"args": [ "-i", "check.ini"],
+				// "args": [ "-i", "check.ini"],
+				"args": [ "-i", "cppuml.ini"],
 			},
 			"linux": {
 				// "args": ["-gn", "-o", "./uml/uml.dot", "-d", "./test", "-i", "../include,./test/inc", "-xn", "std", "-xp", "/usr/include,/usr/lib", "-cd", "_IS_LINUX", "-cs", "c++11"]
