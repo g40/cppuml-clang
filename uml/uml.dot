@@ -9,6 +9,10 @@ inc_test[ label = <<table border="0" rows="*">
 inc_test
 </td></tr>
 
+<tr><td href="file:///R:\src\python\cppuml-clang\test\inc\test.h">
+R:\src\python\cppuml-clang\test\inc\test.h:7
+</td></tr>
+
 <tr><td>
 + a: int <br />
 </td></tr>
@@ -20,6 +24,10 @@ inc_test
 test__A[ label = <<table border="0" rows="*">
 <tr><td>
 A
+</td></tr>
+
+<tr><td href="file:///R:\src\python\cppuml-clang\test\test.cpp">
+R:\src\python\cppuml-clang\test\test.cpp:153
 </td></tr>
 
 <tr><td>
@@ -35,6 +43,10 @@ test__B[ label = <<table border="0" rows="*">
 B
 </td></tr>
 
+<tr><td href="file:///R:\src\python\cppuml-clang\test\test.cpp">
+R:\src\python\cppuml-clang\test\test.cpp:164
+</td></tr>
+
 <tr><td>
 +   B(): void <br />+   B(const int &amp;&amp;): void <br />+ static  factory*(const char *): test::B <br />
 </td></tr>
@@ -48,6 +60,10 @@ test__C[ label = <<table border="0" rows="*">
 C
 </td></tr>
 
+<tr><td href="file:///R:\src\python\cppuml-clang\test\test.cpp">
+R:\src\python\cppuml-clang\test\test.cpp:175
+</td></tr>
+
 <tr><td>
 +   C(): void <br />
 </td></tr>
@@ -55,6 +71,10 @@ C
 test__D[ label = <<table border="0" rows="*">
 <tr><td>
 D
+</td></tr>
+
+<tr><td href="file:///R:\src\python\cppuml-clang\test\test.cpp">
+R:\src\python\cppuml-clang\test\test.cpp:181
 </td></tr>
 
 <tr><td>
@@ -66,6 +86,10 @@ test__E[ label = <<table border="0" rows="*">
 E
 </td></tr>
 
+<tr><td href="file:///R:\src\python\cppuml-clang\test\test.cpp">
+R:\src\python\cppuml-clang\test\test.cpp:187
+</td></tr>
+
 <tr><td>
 +   E(): void <br />
 </td></tr>
@@ -73,6 +97,10 @@ E
 test__ns1__N[ label = <<table border="0" rows="*">
 <tr><td>
 N
+</td></tr>
+
+<tr><td href="file:///R:\src\python\cppuml-clang\test\test.cpp">
+R:\src\python\cppuml-clang\test\test.cpp:195
 </td></tr>
 
 <tr><td>
@@ -84,362 +112,18 @@ test__ns2__N2[ label = <<table border="0" rows="*">
 N2
 </td></tr>
 
+<tr><td href="file:///R:\src\python\cppuml-clang\test\test.cpp">
+R:\src\python\cppuml-clang\test\test.cpp:204
+</td></tr>
+
 <tr><td>
 +   N2(): void <br />
-</td></tr>
-</table>> ]
-_CrtEnableIf[ label = <<table border="0" rows="*">
-<tr><td>
-_CrtEnableIf
-</td></tr>
-</table>> ]
-__crt_locale_data_public[ label = <<table border="0" rows="*">
-<tr><td>
-crt_locale_data_public
-</td></tr>
-
-<tr><td>
-+ _locale_pctype: const unsigned short * <br />+ _locale_mb_cur_max: int <br />+ _locale_lc_codepage: unsigned int <br />
-</td></tr>
-</table>> ]
-__crt_locale_pointers[ label = <<table border="0" rows="*">
-<tr><td>
-crt_locale_pointers
-</td></tr>
-
-<tr><td>
-+ locinfo: struct __crt_locale_data * <br />+ mbcinfo: struct __crt_multibyte_data * <br />
-</td></tr>
-</table>> ]
-__crt_locale_data[ label = <<table border="0" rows="*">
-<tr><td>
-crt_locale_data
-</td></tr>
-</table>> ]
-__crt_multibyte_data[ label = <<table border="0" rows="*">
-<tr><td>
-crt_multibyte_data
-</td></tr>
-</table>> ]
-_Mbstatet[ label = <<table border="0" rows="*">
-<tr><td>
-_Mbstatet
-</td></tr>
-
-<tr><td>
-+ _Wchar: unsigned long <br />+ _Byte: unsigned short <br />+ _State: unsigned short <br />
-</td></tr>
-</table>> ]
-_iobuf[ label = <<table border="0" rows="*">
-<tr><td>
-_iobuf
-</td></tr>
-
-<tr><td>
-+ _Placeholder: void * <br />
-</td></tr>
-</table>> ]
-_wfinddata32_t[ label = <<table border="0" rows="*">
-<tr><td>
-_wfinddata32_t
-</td></tr>
-
-<tr><td>
-+ attrib: unsigned int <br />+ time_create: __time32_t <br />+ time_access: __time32_t <br />+ time_write: __time32_t <br />+ size: _fsize_t <br />+ name: wchar_t [260] <br />
-</td></tr>
-</table>> ]
-_wfinddata32i64_t[ label = <<table border="0" rows="*">
-<tr><td>
-_wfinddata32i64_t
-</td></tr>
-
-<tr><td>
-+ attrib: unsigned int <br />+ time_create: __time32_t <br />+ time_access: __time32_t <br />+ time_write: __time32_t <br />+ size: long long <br />+ name: wchar_t [260] <br />
-</td></tr>
-</table>> ]
-_wfinddata64i32_t[ label = <<table border="0" rows="*">
-<tr><td>
-_wfinddata64i32_t
-</td></tr>
-
-<tr><td>
-+ attrib: unsigned int <br />+ time_create: __time64_t <br />+ time_access: __time64_t <br />+ time_write: __time64_t <br />+ size: _fsize_t <br />+ name: wchar_t [260] <br />
-</td></tr>
-</table>> ]
-_wfinddata64_t[ label = <<table border="0" rows="*">
-<tr><td>
-_wfinddata64_t
-</td></tr>
-
-<tr><td>
-+ attrib: unsigned int <br />+ time_create: __time64_t <br />+ time_access: __time64_t <br />+ time_write: __time64_t <br />+ size: long long <br />+ name: wchar_t [260] <br />
-</td></tr>
-</table>> ]
-tm[ label = <<table border="0" rows="*">
-<tr><td>
-tm
-</td></tr>
-
-<tr><td>
-+ tm_sec: int <br />+ tm_min: int <br />+ tm_hour: int <br />+ tm_mday: int <br />+ tm_mon: int <br />+ tm_year: int <br />+ tm_wday: int <br />+ tm_yday: int <br />+ tm_isdst: int <br />
-</td></tr>
-</table>> ]
-_stat32[ label = <<table border="0" rows="*">
-<tr><td>
-_stat32
-</td></tr>
-
-<tr><td>
-+ st_dev: _dev_t <br />+ st_ino: _ino_t <br />+ st_mode: unsigned short <br />+ st_nlink: short <br />+ st_uid: short <br />+ st_gid: short <br />+ st_rdev: _dev_t <br />+ st_size: _off_t <br />+ st_atime: __time32_t <br />+ st_mtime: __time32_t <br />+ st_ctime: __time32_t <br />
-</td></tr>
-</table>> ]
-_stat32i64[ label = <<table border="0" rows="*">
-<tr><td>
-_stat32i64
-</td></tr>
-
-<tr><td>
-+ st_dev: _dev_t <br />+ st_ino: _ino_t <br />+ st_mode: unsigned short <br />+ st_nlink: short <br />+ st_uid: short <br />+ st_gid: short <br />+ st_rdev: _dev_t <br />+ st_size: long long <br />+ st_atime: __time32_t <br />+ st_mtime: __time32_t <br />+ st_ctime: __time32_t <br />
-</td></tr>
-</table>> ]
-_stat64i32[ label = <<table border="0" rows="*">
-<tr><td>
-_stat64i32
-</td></tr>
-
-<tr><td>
-+ st_dev: _dev_t <br />+ st_ino: _ino_t <br />+ st_mode: unsigned short <br />+ st_nlink: short <br />+ st_uid: short <br />+ st_gid: short <br />+ st_rdev: _dev_t <br />+ st_size: _off_t <br />+ st_atime: __time64_t <br />+ st_mtime: __time64_t <br />+ st_ctime: __time64_t <br />
-</td></tr>
-</table>> ]
-_stat64[ label = <<table border="0" rows="*">
-<tr><td>
-_stat64
-</td></tr>
-
-<tr><td>
-+ st_dev: _dev_t <br />+ st_ino: _ino_t <br />+ st_mode: unsigned short <br />+ st_nlink: short <br />+ st_uid: short <br />+ st_gid: short <br />+ st_rdev: _dev_t <br />+ st_size: long long <br />+ st_atime: __time64_t <br />+ st_mtime: __time64_t <br />+ st_ctime: __time64_t <br />
-</td></tr>
-</table>> ]
-stat[ label = <<table border="0" rows="*">
-<tr><td>
-stat
-</td></tr>
-
-<tr><td>
-+ st_dev: _dev_t <br />+ st_ino: _ino_t <br />+ st_mode: unsigned short <br />+ st_nlink: short <br />+ st_uid: short <br />+ st_gid: short <br />+ st_rdev: _dev_t <br />+ st_size: _off_t <br />+ st_atime: time_t <br />+ st_mtime: time_t <br />+ st_ctime: time_t <br />
-</td></tr>
-</table>> ]
-_exception[ label = <<table border="0" rows="*">
-<tr><td>
-_exception
-</td></tr>
-
-<tr><td>
-+ type: int <br />+ name: char * <br />+ arg1: double <br />+ arg2: double <br />+ retval: double <br />
-</td></tr>
-</table>> ]
-_complex[ label = <<table border="0" rows="*">
-<tr><td>
-_complex
-</td></tr>
-
-<tr><td>
-+ x: double <br />+ y: double <br />
-</td></tr>
-</table>> ]
-_Combined_type[ label = <<table border="0" rows="*">
-<tr><td>
-_Combined_type
-</td></tr>
-</table>> ]
-_Combined_type<float, double>[ label = <<table border="0" rows="*">
-<tr><td>
-_Combined_type&lt;float, double&gt;
-</td></tr>
-</table>> ]
-_Combined_type<float, long double>[ label = <<table border="0" rows="*">
-<tr><td>
-_Combined_type&lt;float, long double&gt;
-</td></tr>
-</table>> ]
-_Real_widened[ label = <<table border="0" rows="*">
-<tr><td>
-_Real_widened
-</td></tr>
-</table>> ]
-_Real_widened<float, float>[ label = <<table border="0" rows="*">
-<tr><td>
-_Real_widened&lt;float, float&gt;
-</td></tr>
-</table>> ]
-_Real_widened<float, double>[ label = <<table border="0" rows="*">
-<tr><td>
-_Real_widened&lt;float, double&gt;
-</td></tr>
-</table>> ]
-_Real_widened<double, float>[ label = <<table border="0" rows="*">
-<tr><td>
-_Real_widened&lt;double, float&gt;
-</td></tr>
-</table>> ]
-_Real_widened<double, double>[ label = <<table border="0" rows="*">
-<tr><td>
-_Real_widened&lt;double, double&gt;
-</td></tr>
-</table>> ]
-_Real_type[ label = <<table border="0" rows="*">
-<tr><td>
-_Real_type
-</td></tr>
-</table>> ]
-_Real_type<float>[ label = <<table border="0" rows="*">
-<tr><td>
-_Real_type&lt;float&gt;
-</td></tr>
-</table>> ]
-_Real_type<long double>[ label = <<table border="0" rows="*">
-<tr><td>
-_Real_type&lt;long double&gt;
-</td></tr>
-</table>> ]
-_div_t[ label = <<table border="0" rows="*">
-<tr><td>
-_div_t
-</td></tr>
-
-<tr><td>
-+ quot: int <br />+ rem: int <br />
-</td></tr>
-</table>> ]
-_ldiv_t[ label = <<table border="0" rows="*">
-<tr><td>
-_ldiv_t
-</td></tr>
-
-<tr><td>
-+ quot: long <br />+ rem: long <br />
-</td></tr>
-</table>> ]
-_lldiv_t[ label = <<table border="0" rows="*">
-<tr><td>
-_lldiv_t
-</td></tr>
-
-<tr><td>
-+ quot: long long <br />+ rem: long long <br />
-</td></tr>
-</table>> ]
-_LDOUBLE[ label = <<table border="0" rows="*">
-<tr><td>
-_LDOUBLE
-</td></tr>
-
-<tr><td>
-+ ld: unsigned char [10] <br />
-</td></tr>
-</table>> ]
-_CRT_DOUBLE[ label = <<table border="0" rows="*">
-<tr><td>
-_CRT_DOUBLE
-</td></tr>
-
-<tr><td>
-+ x: double <br />
-</td></tr>
-</table>> ]
-_CRT_FLOAT[ label = <<table border="0" rows="*">
-<tr><td>
-_CRT_FLOAT
-</td></tr>
-
-<tr><td>
-+ f: float <br />
-</td></tr>
-</table>> ]
-_LONGDOUBLE[ label = <<table border="0" rows="*">
-<tr><td>
-_LONGDOUBLE
-</td></tr>
-
-<tr><td>
-+ x: long double <br />
-</td></tr>
-</table>> ]
-_LDBL12[ label = <<table border="0" rows="*">
-<tr><td>
-_LDBL12
-</td></tr>
-
-<tr><td>
-+ ld12: unsigned char [12] <br />
-</td></tr>
-</table>> ]
-_CrtMemBlockHeader[ label = <<table border="0" rows="*">
-<tr><td>
-_CrtMemBlockHeader
-</td></tr>
-</table>> ]
-_CrtMemState[ label = <<table border="0" rows="*">
-<tr><td>
-_CrtMemState
-</td></tr>
-
-<tr><td>
-+ pBlockHeader: struct _CrtMemBlockHeader * <br />+ lCounts: size_t [5] <br />+ lSizes: size_t [5] <br />+ lHighWaterCount: size_t <br />+ lTotalCount: size_t <br />
-</td></tr>
-</table>> ]
-_heapinfo[ label = <<table border="0" rows="*">
-<tr><td>
-_heapinfo
-</td></tr>
-
-<tr><td>
-+ _pentry: int * <br />+ _size: size_t <br />+ _useflag: int <br />
-</td></tr>
-</table>> ]
-_timespec32[ label = <<table border="0" rows="*">
-<tr><td>
-_timespec32
-</td></tr>
-
-<tr><td>
-+ tv_sec: __time32_t <br />+ tv_nsec: long <br />
-</td></tr>
-</table>> ]
-_timespec64[ label = <<table border="0" rows="*">
-<tr><td>
-_timespec64
-</td></tr>
-
-<tr><td>
-+ tv_sec: __time64_t <br />+ tv_nsec: long <br />
-</td></tr>
-</table>> ]
-timespec[ label = <<table border="0" rows="*">
-<tr><td>
-timespec
-</td></tr>
-
-<tr><td>
-+ tv_sec: time_t <br />+ tv_nsec: long <br />
-</td></tr>
-</table>> ]
-lconv[ label = <<table border="0" rows="*">
-<tr><td>
-lconv
-</td></tr>
-
-<tr><td>
-+ decimal_point: char * <br />+ thousands_sep: char * <br />+ grouping: char * <br />+ int_curr_symbol: char * <br />+ currency_symbol: char * <br />+ mon_decimal_point: char * <br />+ mon_thousands_sep: char * <br />+ mon_grouping: char * <br />+ positive_sign: char * <br />+ negative_sign: char * <br />+ int_frac_digits: char <br />+ frac_digits: char <br />+ p_cs_precedes: char <br />+ p_sep_by_space: char <br />+ n_cs_precedes: char <br />+ n_sep_by_space: char <br />+ p_sign_posn: char <br />+ n_sign_posn: char <br />+ _W_decimal_point: wchar_t * <br />+ _W_thousands_sep: wchar_t * <br />+ _W_int_curr_symbol: wchar_t * <br />+ _W_currency_symbol: wchar_t * <br />+ _W_mon_decimal_point: wchar_t * <br />+ _W_mon_thousands_sep: wchar_t * <br />+ _W_positive_sign: wchar_t * <br />+ _W_negative_sign: wchar_t * <br />
 </td></tr>
 </table>> ]
 
 // has-a (uses/ownership/association)
 inc_test -> test__A [constraint=false, arrowtail=diamond]
 test__A -> test__B [constraint=false, arrowtail=diamond]
-__crt_locale_data -> __crt_locale_pointers [constraint=false, arrowtail=odiamond]
-__crt_multibyte_data -> __crt_locale_pointers [constraint=false, arrowtail=odiamond]
-_CrtMemBlockHeader -> _CrtMemState [constraint=false, arrowtail=odiamond]
 
 // is-a (inheritance)
 test__B -> test__C
